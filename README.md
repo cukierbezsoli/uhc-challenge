@@ -24,10 +24,10 @@ Because natural regeneration is disabled, Golden Apples are the primary source o
 - **Regeneration I** (heals 4 hearts)
 - **Absorption I** (2 golden hearts for 5 minutes)
 
-**Enchanted Golden Apple (Kox):**
+**Enchanted Golden Apple:**
 - **Craftable again!** The classic recipe is back: 1 Golden Apple surrounded by 8 Gold Blocks.
 - **Regeneration II** (heals 8 hearts)
-- **Absorption IV** (16 golden hearts for 5 minutes)
+- **Absorption IV** (8 golden hearts for 5 minutes)
 - **Resistance I** & **Fire Resistance** (for 5 minutes)
 
 ### 🏆 Custom Advancements
