@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "uhc-challenge",
+	"version": "${version}",
+	"name": "UHC Challenge",
+	"description": "A hardcore UHC challenge mod featuring balanced mechanics, new advancements, and enhanced Golden Apples!",
+	"authors": [
+		"cukierbezsoli"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/uhc-challenge/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.uhcchallenge.UHCChallenge"
+		],
+		"client": [
+			"net.uhcchallenge.client.UHCChallengeClient"
+		],
+		"fabric-datagen": [
+			"net.uhcchallenge.client.UHCChallengeDataGenerator"
+		]
+	},
+	"mixins": [
+		"uhc-challenge.mixins.json",
+		{
+			"config": "uhc-challenge.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

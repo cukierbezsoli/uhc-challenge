@@ -1,0 +1,22 @@
+{
+  "parent": "uhc-challenge:root",
+  "criteria": {
+    "near_death": {
+      "trigger": "uhc-challenge:near_death"
+    }
+  },
+  "display": {
+    "description": "Drop to 5 hearts or fewer, then heal back to full.",
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": "Brush with Death"
+  },
+  "requirements": [
+    [
+      "near_death"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

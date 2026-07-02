@@ -1,0 +1,22 @@
+{
+  "parent": "uhc-challenge:root",
+  "criteria": {
+    "flawless_dragon": {
+      "trigger": "uhc-challenge:flawless_dragon"
+    }
+  },
+  "display": {
+    "description": "Defeat the Ender Dragon losing a maximum of 5 hearts in the End.",
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": "Dragon Slayer"
+  },
+  "requirements": [
+    [
+      "flawless_dragon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

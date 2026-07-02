@@ -1,0 +1,28 @@
+{
+  "parent": "uhc-challenge:root",
+  "criteria": {
+    "has_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Craft or obtain a Golden Apple.",
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": "Alchemy for the Poor"
+  },
+  "requirements": [
+    [
+      "has_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

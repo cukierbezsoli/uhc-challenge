@@ -1,0 +1,22 @@
+{
+  "parent": "uhc-challenge:root",
+  "criteria": {
+    "water_mlg": {
+      "trigger": "uhc-challenge:water_mlg"
+    }
+  },
+  "display": {
+    "description": "Perform an MLG from at least 100 blocks.",
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": "Gravity is Just a Suggestion"
+  },
+  "requirements": [
+    [
+      "water_mlg"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

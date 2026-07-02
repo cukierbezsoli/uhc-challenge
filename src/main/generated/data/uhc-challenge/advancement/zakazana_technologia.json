@@ -1,0 +1,29 @@
+{
+  "parent": "uhc-challenge:alchemia_ubogich",
+  "criteria": {
+    "has_kox": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_golden_apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Obtain the legendary Enchanted Golden Apple.",
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": "Forbidden Technology"
+  },
+  "requirements": [
+    [
+      "has_kox"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

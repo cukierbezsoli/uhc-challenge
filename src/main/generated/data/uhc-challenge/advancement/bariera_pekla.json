@@ -1,0 +1,22 @@
+{
+  "parent": "uhc-challenge:root",
+  "criteria": {
+    "survived_protection": {
+      "trigger": "uhc-challenge:survived_protection"
+    }
+  },
+  "display": {
+    "description": "Survive the first 10 minutes without losing any red hearts.",
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": "The Barrier is Broken"
+  },
+  "requirements": [
+    [
+      "survived_protection"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

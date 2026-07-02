@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "survived_protection": {
+      "trigger": "uhc-challenge:survived_protection"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": "Survive the most balanced challenge!",
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "show_toast": false,
+    "title": "UHC Challenge"
+  },
+  "requirements": [
+    [
+      "survived_protection"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

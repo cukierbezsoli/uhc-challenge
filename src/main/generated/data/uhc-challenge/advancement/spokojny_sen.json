@@ -1,0 +1,22 @@
+{
+  "parent": "uhc-challenge:root",
+  "criteria": {
+    "sleepless": {
+      "trigger": "uhc-challenge:sleepless_nights"
+    }
+  },
+  "display": {
+    "description": "Survive 3 nights without attempting to sleep.",
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": "Peaceful Sleep"
+  },
+  "requirements": [
+    [
+      "sleepless"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

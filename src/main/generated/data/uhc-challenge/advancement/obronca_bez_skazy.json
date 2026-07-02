@@ -1,0 +1,22 @@
+{
+  "parent": "uhc-challenge:root",
+  "criteria": {
+    "flawless_raid": {
+      "trigger": "uhc-challenge:flawless_raid"
+    }
+  },
+  "display": {
+    "description": "Win a raid without losing a single health point.",
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": "Flawless Defender"
+  },
+  "requirements": [
+    [
+      "flawless_raid"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
