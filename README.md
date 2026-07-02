@@ -1,5 +1,5 @@
 # UHC Challenge
-
+# Minecraft Version: Fabric 26.2
 **UHC Challenge** is a hardcore-focused Fabric mod designed to provide a balanced, challenging, and engaging Ultra Hardcore experience. This mod changes fundamental mechanics, rebalances Golden Apples, and adds a brand new set of custom advancements to conquer!
 
 ## Features
